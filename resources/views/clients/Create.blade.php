@@ -2,12 +2,12 @@
 @section('content')
  
 <div class="card">
-  <div class="card-header">Clients Page</div>
+  <div class="card-header">Страница добавления клиента</div>
   <div class="card-body">
       
       <form action="{{ url('client') }}" method="post">
         {!! csrf_field() !!}
-        <label>Name</label></br>
+        <label>ФИО</label></br>
         <input type="text" required name="name" id="name" class="form-control"></br>
         <label>Email</label></br>
         <input type="text"required name="email" id="email" class="form-control"></br>

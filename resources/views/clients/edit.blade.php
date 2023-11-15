@@ -2,7 +2,7 @@
 @section('content')
  
 <div class="card">
-  <div class="card-header">Contactus Page</div>
+  <div class="card-header">Информация о клиенте</div>
   <div class="card-body">
       
       <form action="{{ url('client/' .$clients->id) }}" method="post">

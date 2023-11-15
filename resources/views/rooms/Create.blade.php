@@ -7,7 +7,7 @@
       
       <form action="{{ url('room') }}" method="post">
         {!! csrf_field() !!}
-        <label>Name</label></br>
+        <label>Комната</label></br>
         <input type="text" name="name" required id="name" class="form-control"></br>
         <input type="submit" value="Save" class="btn btn-success"></br>
     </form>
